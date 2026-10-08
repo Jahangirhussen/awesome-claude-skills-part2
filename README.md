@@ -1,6 +1,7 @@
 # Awesome Claude Skills - Part 2
 
-Skills from `linkedin-skills` to `zero-hallucination-coder` (558 folders). Part 1 (a11y-audit to linkedin-profile, 557 folders) lives in https://github.com/Jahangirhussen/awesome-claude-skills-1000. Together they hold the full audited library (1,351 skills, 15 domains).
+All **agent skills** (agents, orchestration, MCP, memory, prompts, planning/execution workflows, skill authoring). Part 1 (SEO, development and everything else) lives in https://github.com/Jahangirhussen/awesome-claude-skills-1000. Together they hold the full audited library (1,351 skills, 15 domains).
+
 
 ## One-click setup
 Installs **both parts** (all 1,351 skills) and enables auto-routing. Needs only Git and Claude Code. It overwrites same-name skills in `~/.claude/skills` and appends two short rule blocks to `~/.claude/CLAUDE.md` (backup `CLAUDE.md.bak`; set `SKIP_RULES=1` to skip the rules).
@@ -17,39 +18,31 @@ Then restart Claude Code. Read the script first if you like: [install.sh](instal
 
 ## What is in this repo
 Library is split in two repos: Part 1 = [awesome-claude-skills-1000](https://github.com/Jahangirhussen/awesome-claude-skills-1000), Part 2 = [awesome-claude-skills-part2](https://github.com/Jahangirhussen/awesome-claude-skills-part2).
-This repo: **Part 2 (awesome-claude-skills-part2)**, 558 skill folders (`linkedin-skills` to `zero-hallucination-coder`). Full per-skill list with score and source: [SKILLS-TABLE.md](SKILLS-TABLE.md).
+This repo: **Part 2 (awesome-claude-skills-part2)**, 153 skill folders (agent skills: agents, orchestration, MCP, memory, prompts, planning/execution workflows, skill authoring). Full per-skill list with score and source: [SKILLS-TABLE.md](SKILLS-TABLE.md).
 
 Scores are /100 from a heuristic structure rubric (not human review). Sub category exists mainly for SEO; other domains are flat.
 
 | Skill Category | Sub Category | Skills in this repo | Avg Score /100 | Skill files incl. nested |
 |---|---|---:|---:|---:|
-| 01-DEVELOPMENT | general | 51 | 83 | 51 |
-| 02-BUSINESS-SYSTEMS | accounting | 4 | 88 | 4 |
-| 02-BUSINESS-SYSTEMS | business-automation | 47 | 85 | 47 |
-| 02-BUSINESS-SYSTEMS | crm | 6 | 87 | 6 |
-| 02-BUSINESS-SYSTEMS | ecommerce | 4 | 80 | 4 |
-| 02-BUSINESS-SYSTEMS | hr | 7 | 83 | 7 |
-| 02-BUSINESS-SYSTEMS | saas | 7 | 83 | 7 |
-| 02-BUSINESS-SYSTEMS | shopify | 1 | 85 | 1 |
-| 02-BUSINESS-SYSTEMS | woocommerce | 6 | 82 | 6 |
-| 02-BUSINESS-SYSTEMS | wordpress | 28 | 81 | 28 |
-| 03-AI | general | 48 | 84 | 48 |
-| 04-RESEARCH | general | 64 | 87 | 66 |
-| 05-SEO | 33 parent categories | 1 | 90 | 179 |
-| 05-SEO | general | 3 | 86 | 3 |
-| 06-MARKETING | general | 26 | 85 | 26 |
-| 07-DATA | general | 20 | 87 | 20 |
-| 08-DEVOPS | general | 33 | 85 | 33 |
-| 09-SECURITY | general | 31 | 85 | 31 |
-| 10-TESTING | general | 36 | 83 | 37 |
-| 11-DESIGN | general | 46 | 85 | 46 |
-| 12-AUTOMATION | general | 9 | 85 | 9 |
-| 13-PRODUCT | general | 22 | 83 | 23 |
-| 14-DOCUMENTATION | general | 29 | 83 | 29 |
-| 15-SUPPORT | general | 4 | 90 | 4 |
-| 99-UNCLASSIFIED | general | 24 | 50 | 15 |
-| Library index | domains 01-15 + imports | 1 | 85 | 60 |
-| **Total** | | **558** | **83** | **790** |
+| 01-DEVELOPMENT | general | 13 | 82 | 13 |
+| 02-BUSINESS-SYSTEMS | business-automation | 13 | 84 | 13 |
+| 02-BUSINESS-SYSTEMS | ecommerce | 1 | 82 | 1 |
+| 02-BUSINESS-SYSTEMS | hr | 3 | 82 | 4 |
+| 03-AI | general | 53 | 84 | 54 |
+| 04-RESEARCH | general | 7 | 82 | 7 |
+| 05-SEO | general | 1 | 84 | 1 |
+| 06-MARKETING | general | 2 | 85 | 2 |
+| 07-DATA | general | 1 | 82 | 1 |
+| 08-DEVOPS | general | 9 | 87 | 9 |
+| 09-SECURITY | general | 1 | 90 | 1 |
+| 10-TESTING | general | 12 | 82 | 13 |
+| 11-DESIGN | general | 8 | 81 | 8 |
+| 12-AUTOMATION | general | 6 | 82 | 6 |
+| 13-PRODUCT | general | 2 | 82 | 2 |
+| 14-DOCUMENTATION | general | 6 | 86 | 7 |
+| 15-SUPPORT | general | 4 | 82 | 4 |
+| 99-UNCLASSIFIED | general | 11 | 81 | 12 |
+| **Total** | | **153** | **83** | **158** |
 
 
 ## Setup (for anyone)
